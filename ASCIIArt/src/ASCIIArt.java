@@ -18,10 +18,51 @@
 
 public class ASCIIArt {
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		snowMan();
+	}
+	public static void snowMan() {
+		myHat();
+		ballThree();
+		ballTwo();
+		ballOne();
+		System.out.print("This is a spaced-out snowman ^_^");
+		
+	}
+	public static void ballOne() {
+		System.out.println("     ____________  ");
+		System.out.println("    /            \\");
+		System.out.println("   /              \\");
+		System.out.println("  /                \\ ");
+		System.out.println(" |                  | ");
+		System.out.println(" |        {O}       | ");
+		System.out.println(" |                  |");
+		System.out.println("  \\                /");
+		System.out.println("   \\              /");
+		System.out.println("    \\            /");
+		System.out.println("     ^^^^^^^^^^^^");
+	}
+	public static void ballTwo() {
+		System.out.println("\t________   ");
+		System.out.println("       /        \\");
+		System.out.println("      /          \\");
+		System.out.println("     |            |");
+		System.out.println("     |    {O}     |");
+		System.out.println("      \\          /");
+		System.out.println("       \\        /");
+		System.out.println("        ^^^^^^^^");
+	}
+	public static void ballThree() {
+		System.out.println("         ______    ");
+		System.out.println("        /      \\");
+		System.out.println("       |  0  0  |");
+		System.out.println("        \\ ---- /");
+		System.out.println("         ^^^^^^");
+	}
+	public static void myHat() {
+		System.out.println("          ____");
+		System.out.println("         |    |");
+		System.out.println("         |    |");
+		System.out.println("         |    |");
+		System.out.println("        ^^^^^^^^");
 	}
 }
